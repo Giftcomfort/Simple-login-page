@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+    font-size: 16px;
+}
+section{
+    background-color: rgb(247, 80, 58);
+    display: flex;
+    padding: 100px 50px;
+}
+/*#center{
+    background-color: yellow;
+    flex: 1;
+    border-radius: 9px;
+}*/
+#left{
+    background-color: rgb(59, 20, 20);
+    flex: 1;
+    min-height: 100px;   
+    border-radius: 20px 0px 0px 20px;
+   
+}
+#left img{
+    width: 500px;
+    position: relative;
+    padding-left: 140px;
+    padding-top: 150px;
+    
+}
+
+#right{
+    flex:1 ;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 70px 0px;
+}
+p{
+    font-size: 14px;
+}
+#get-started{
+    margin: 15px 0px;
+}
+#get-started span, form p span{
+    font-weight: 700;
+    color: rgb(255, 114, 96);
+}
+#external-login{
+    display: flex;
+    justify-content: space-between;
+}
+#external-login a{
+    text-decoration: none;
+    border: 1px solid rgb(139, 138, 138);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+}
+#external-login #facebook{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+
+#external-login Img{
+  width: 15px;
+  text-align: center;
+}
+form{
+    margin: auto;
+    width: 70%;
+}
+#divider{
+    margin: 25px 0px;
+    text-align: center;
+    position: relative;
+}
+#divider span{
+    position: absolute;
+    top: -16px;
+    left: 45%;
+    background-color: white;
+    padding: 5px;
+}
+#email,
+#password{
+    margin-top: 10px;
+}
+#email input,
+#password input{
+    outline: none;
+    padding: 12px 15px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#check{
+    outline:none;
+    border:1px solid rgb(255,114, 94);
+}
+#email input{
+    border:1px solid rgb(255, 114, 94);
+} 
+
+#password input{
+    border: 1px solid rgb(218, 218, 218);
+}
+button{
+    background-color: rgb(255,114, 94);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+form p{
+    margin: 20px 0px;
+}
+form label{
+    font-size: 13px;
+}
+
+
+
+
